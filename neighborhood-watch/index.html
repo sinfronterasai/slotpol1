@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#122c31"><title>The Neighborhood Watch — Play-Credit Prototype</title>
+<link rel="stylesheet" href="./style.css"></head><body>
+<div class="texture" aria-hidden="true"></div>
+<main class="shell">
+  <header class="masthead"><div class="seal">P.P.<span>EST. 1956</span></div><div class="mastcopy"><div class="kicker">PLEASANT PINES HOMEOWNERS ASSOCIATION • OFFICIAL ENTERTAINMENT</div><h1>THE <em>NEIGHBORHOOD</em> WATCH<span>!</span></h1><p>PERFECT LAWNS. PERFECT NEIGHBORS. PERFECT OBEDIENCE.</p></div><div class="issue">ISSUE NO. 001<br><strong>YOUR CONDUCT<br>IS MONITORED</strong></div></header>
+  <section class="stage" aria-label="Slot game">
+    <div class="billboard"><div><span class="live-dot"></span> COMMUNITY BULLETIN <small>•</small> ALL RESIDENTS MUST PARTICIPATE</div><span id="modeLabel">NORMAL OPERATIONS</span></div>
+    <div class="game-area"><aside class="side-character" aria-hidden="true"><div class="sun"></div><div class="hair"></div><div class="face"><div class="eyes">• &nbsp; •</div><div class="smile">◡</div></div><div class="collar"></div><div class="speech">SMILE, DEAR.<br><b>WE'RE WATCHING.</b></div></aside>
+    <div class="machine"><div class="machine-top"><span>THE DAILY COMPLIANCE DRAW</span><strong>★ ★ ★</strong></div><div class="reels" id="reels" aria-label="Five slot reels with three symbols each"></div><div class="machine-bottom"><span>20 APPROVED PAYLINES</span><span id="message">A tidy lawn is a loyal lawn.</span></div></div></div>
+    <div class="hud"><div class="meter"><small>COMMUNITY CREDITS</small><strong id="balance">1,000.00</strong></div><div class="meter"><small>APPROVED WAGER</small><strong id="betValue">10.00</strong></div><div class="meter"><small>LAST APPROVED WIN</small><strong id="lastWin">0.00</strong></div><div class="meter"><small>TOTAL INSPECTIONS</small><strong id="spins">0</strong></div></div>
+    <div class="controls"><label class="bet-control" for="bet">BET SIZE <select id="bet"><option>1</option><option>2</option><option>5</option><option selected>10</option><option>20</option><option>50</option></select></label><button class="spin" id="spin">SPIN <span>▶</span></button><button class="reset" id="reset">RESET CREDITS</button></div>
+  </section>
+  <section class="features"><div class="feature-header"><span>★ MANDATORY NEIGHBORHOOD PROGRAMS ★</span><p>SELECT A FEATURE. THE ASSOCIATION KNOWS BEST.</p></div><div class="feature-grid">
+    <button class="feature curfew" id="curfew"><span class="stamp">01 / CURFEW</span><strong>LOCKDOWN!</strong><small>Outer reels lock. Security multiplier 2×–10×.</small><span class="feature-cta">TRIGGER • 1× BET</span></button>
+    <button class="feature hoa" id="hoa"><span class="stamp">02 / HOA MEETING</span><strong>VIOLATION!</strong><small>Buy feature. Four wild placements and a 3×–8× multiplier.</small><span class="feature-cta">BUY FEATURE • 40× BET</span></button>
+    <button class="feature invasion" id="invasion"><span class="stamp">03 / HOME INVASION</span><strong>NO KNOCK!</strong><small>Evidence Wilds replace symbols for volatile wins.</small><span class="feature-cta">TRIGGER • 1× BET</span></button>
+  </div></section>
+  <footer><div class="result" role="status" aria-live="polite" id="result">PLEASE WAIT FOR YOUR NEXT INSPECTION.</div><p>PLAY-CREDIT DEMO • NO REAL MONEY • EXPERIMENTAL PAYOUTS, NOT CERTIFIED RTP</p></footer>
+</main><script type="module" src="./main.mjs"></script></body></html>
